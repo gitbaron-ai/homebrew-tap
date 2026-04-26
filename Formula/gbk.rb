@@ -7,22 +7,22 @@ class Gbk < Formula
   on_macos do
     on_intel do
       url "https://dl.gitbaron.ai/gbk/v0.1.4-dirty/gbk_darwin_amd64"
-      sha256 "51e173a8c6091a20348a8b5fd1ad712870d83089fe0101f6b1b2d2b88e833941"
+      sha256 "b2719d8a81ca519dbe4b75e11e087154234180b44b0264913839a6a6e26ad765"
     end
     on_arm do
       url "https://dl.gitbaron.ai/gbk/v0.1.4-dirty/gbk_darwin_arm64"
-      sha256 "9147397205d4299ec21e5e68cbb139da6b2527502f932b192d60eb2663e359dc"
+      sha256 "ca9f167d8ce86742602cce14c278ef4f097ebfafc52d32f967c4867cd040f189"
     end
   end
 
   on_linux do
     on_intel do
       url "https://dl.gitbaron.ai/gbk/v0.1.4-dirty/gbk_linux_amd64"
-      sha256 "3667a5725e9b756ceae8417124f1a182f19b9bfc01128b509a133b3d26d61996"
+      sha256 "e89ea3e2c716f8dac91fec5e9f3cc2cd9281c4d7162244ade3d9e8c19a0e4216"
     end
     on_arm do
       url "https://dl.gitbaron.ai/gbk/v0.1.4-dirty/gbk_linux_arm64"
-      sha256 "ffc9b55b6cffed3fdd8bbb8d16aecf3f6dcdb6db1f96c73deea1a68318940726"
+      sha256 "159cc8d3d3af14c47831d4be2eea1ed218c3f48a2dda01443d87a52d82bb2200"
     end
   end
 
