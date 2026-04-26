@@ -1,28 +1,28 @@
 class Gbk < Formula
   desc "GitBaron CLI — wire up Claude Code with GitBaron intelligence"
   homepage "https://gitbaron.ai"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://dl.gitbaron.ai/gbk/v0.1.5/gbk_darwin_amd64"
-      sha256 "4ac9ff1a3b0e656199c5c4a75bb3483181bd7757cfe42cfeb848a342f86453c7"
+      url "https://dl.gitbaron.ai/gbk/v0.1.6/gbk_darwin_amd64"
+      sha256 "2cc5608cc5059432324b9ccf738036268a83bfab32ad5ffb29ef16855cba67b0"
     end
     on_arm do
-      url "https://dl.gitbaron.ai/gbk/v0.1.5/gbk_darwin_arm64"
-      sha256 "9b7ff720a1fd4425bca0429b902b6819563cfa408ca68634033be35f7686cd13"
+      url "https://dl.gitbaron.ai/gbk/v0.1.6/gbk_darwin_arm64"
+      sha256 "383449f308e0428cc5cf2254d40957155b894f15eeced74df2810a0ae3f9623a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://dl.gitbaron.ai/gbk/v0.1.5/gbk_linux_amd64"
-      sha256 "8448966003992cedcdcffecd22f6dc4eae6141d8239b89d6b1b5f1dc37b11cec"
+      url "https://dl.gitbaron.ai/gbk/v0.1.6/gbk_linux_amd64"
+      sha256 "41755a7ca3674e13b930500ec602e07176f547d0690a8f64e7cb532cfacbbb3e"
     end
     on_arm do
-      url "https://dl.gitbaron.ai/gbk/v0.1.5/gbk_linux_arm64"
-      sha256 "6b57b540ef36d5c633bacf89aea73145996f4f734ae1fb34628334a626d2efe6"
+      url "https://dl.gitbaron.ai/gbk/v0.1.6/gbk_linux_arm64"
+      sha256 "a5a677976e2de26633d5d83e974d0c6a510fa76ebf3416910525deea3c75db86"
     end
   end
 
