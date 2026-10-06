@@ -7,11 +7,11 @@ class Gbk < Formula
   on_macos do
     on_intel do
       url "https://dl.gitbaron.ai/gbk/v0.7.20/gbk_darwin_amd64"
-      sha256 "fb5556bebea020cafb9af871bb8ed5abf2d01a65bb9baa54223bf353b0aca553"
+      sha256 "1417953fa89b4f1b4555c59b2439303c574e667edd623cc44eb9368dba4e85de"
     end
     on_arm do
       url "https://dl.gitbaron.ai/gbk/v0.7.20/gbk_darwin_arm64"
-      sha256 "ab87be15bcc3b40b7407430e772283d6b34c874ca72427e5b3cf2b40ef477fe4"
+      sha256 "8571318a35cc3576381c1934cfef61373f4d5841f8a0ab809e1a4293f0e4f14f"
       resource "gbk-applellm" do
         url "https://dl.gitbaron.ai/gbk/v0.7.20/gbk-applellm_darwin_arm64"
         sha256 "903a94191823c298f6bf71cdd47d9656eceae574dc192d15942b856550d8af2f"
@@ -22,11 +22,11 @@ class Gbk < Formula
   on_linux do
     on_intel do
       url "https://dl.gitbaron.ai/gbk/v0.7.20/gbk_linux_amd64"
-      sha256 "d1f8cde682f35ef59d654edad7c6cc63d7d13131e717c67fc6f84cdf185204c3"
+      sha256 "579052781006d909c9bef51e4d498082e3df6d67dfef91e550e552793744f5d1"
     end
     on_arm do
       url "https://dl.gitbaron.ai/gbk/v0.7.20/gbk_linux_arm64"
-      sha256 "0434824220e26696c3fb135585a648de2eeebde6c3afe41c3c30f6c62b9561d3"
+      sha256 "7a7526c80b0056a367220e0c235f769560b18c3e440dfcf66a444564b21b411f"
     end
   end
 
